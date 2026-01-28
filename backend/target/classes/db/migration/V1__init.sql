@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS flyway_check (
+  id SERIAL PRIMARY KEY,
+  created_at TIMESTAMP NOT NULL DEFAULT NOW()
+);
